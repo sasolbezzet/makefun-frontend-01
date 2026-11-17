@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d16">
+  <meta name="description" content="Institutional, high-conformance, ultra-low latency make.fun frontend">
+  <title>Institutional Bounty Board | make.fun</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <a href="#/" class="brand-link">
+          <span class="brand-badge">PRO</span>
+          <span class="brand-name">make.fun</span>
+          <span class="brand-sub">institutional</span>
+        </a>
+      </div>
+      <nav class="header-nav">
+        <a href="#/" class="nav-link">Bounties</a>
+        <a href="#/bounty/threejs-fps-02" class="nav-link">FPS Bounty</a>
+        <a href="#/leaderboard/threejs-fps-02" class="nav-link">Leaderboard</a>
+        <a href="#/profile/sasolbezzet" class="nav-link">Profile</a>
+      </nav>
+      <div class="header-meta">
+        <span class="status-indicator">
+          <span class="status-dot"></span>
+          <span class="status-text">Live Mainnet API</span>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main id="app" class="main-container">
+    <div class="loading-state">
+      <div class="spinner"></div>
+      <p>Initializing institutional workspace…</p>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <p><strong>make.fun</strong> institutional client · Zero-framework ES Modules · MIT License</p>
+        <p class="footer-text-muted">Direct CORS connection to <code>https://make.fun/api</code> · ETag revalidated</p>
+      </div>
+      <div class="footer-links">
+        <a href="#/">Board</a>
+        <a href="#/bounty/makefun-frontend-01">Competition</a>
+        <a href="#/profile/sasolbezzet">Author</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
